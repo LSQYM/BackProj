@@ -9,6 +9,10 @@ module.exports = class Site {
 
     }
 
+    estPresent(num){
+        for
+    }
+
     ajouterProfil(nom,prenom,contact) {
         const id = this.nextId++;
         this.listeEtudiants[id] = new Etudiant(nom,prenom,contact);
