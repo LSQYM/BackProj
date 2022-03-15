@@ -4,7 +4,7 @@ constructor(id) {
     this.description=description;
     this.motscles=[];
     this.date=date;
-    this.nomcreateur=nomcreateur;
+    this.idcreateur=idcreateur;
 
 }
   get num(){
@@ -23,7 +23,7 @@ constructor(id) {
         return this.date;
     }
 
-    get nomcreateur(){
-        return this.nomcreateur;
+    get idcreateurr(){
+        return this.idcreateur;
     }
 }
